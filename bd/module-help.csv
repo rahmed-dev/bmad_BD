@@ -1,0 +1,5 @@
+module,phase,name,code,sequence,workflow-file,command,required,agent,options,description,output-location,outputs,
+bd,anytime,BDO — Business Development Officer,BDO,,,,false,BDO,Agent,Activate BDO your in-house BD Officer — proposals portfolios and past project management,,,
+bd,anytime,Write Proposal,WP,,_bmad/bd/workflows/write-proposal/workflow.md,bd_wp,false,BDO,Create Mode,Paste a job description and get a tailored ready-to-send Upwork proposal in seconds,bd-artifacts,proposal,
+bd,anytime,Manage Past Projects,PP,,_bmad/bd/workflows/manage-past-projects/workflow.md,bd_pp,false,BDO,Manage Mode,Add view or update past project references in BDO's knowledge base,,,
+bd,anytime,Write Portfolio,PF,,_bmad/bd/workflows/write-portfolio/workflow.md,bd_pf,false,BDO,Create Mode,Write a polished portfolio case study with specific image suggestions for Upwork or LinkedIn,bd-artifacts,portfolio-piece,
